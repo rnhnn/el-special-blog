@@ -10,21 +10,23 @@ export default async function BlogPostPage({ params }) {
 
   return (
     <>
-      <main className="blog-entry">
-        <time className="blog-entry-date">{formatDate(post.date)}</time>
-        <h1
-          className="blog-entry-title"
-          dangerouslySetInnerHTML={{ __html: post.title }}
-        />
-        <Image
-          className="blog-entry-image"
-          src={`/images/blog/${post.image}`}
-          alt={post.alt}
-          width={637}
-          height={0}
-          style={{ width: '100%', height: 'auto' }}
-        />
-        {renderEntryContent(post.content)}
+      <main className="blog">
+        <article className="blog-entry">
+          <time className="blog-entry-date">{formatDate(post.date)}</time>
+          <h1
+            className="blog-entry-title"
+            dangerouslySetInnerHTML={{ __html: post.title }}
+          />
+          <Image
+            className="blog-entry-image"
+            src={`/images/blog/${post.image}`}
+            alt={post.alt}
+            width={637}
+            height={0}
+            style={{ width: '100%', height: 'auto' }}
+          />
+          {renderEntryContent(post.content)}
+        </article>
       </main>
     </>
   );

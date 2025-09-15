@@ -89,3 +89,38 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.blog-entry {
+  font-size: 16px;
+}
+
+.blog-entry + .blog-entry::before {
+  content: '';
+  display: block;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.40);
+}
+
+.blog-entry-date {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Monaspace Neon", monospace;
+}
+
+.blog-entry-title {
+  margin-top: 32px;
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.blog-entry-image {
+  border-radius: 8px;
+}
