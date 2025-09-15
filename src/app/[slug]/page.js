@@ -25,7 +25,9 @@ export default async function BlogPostPage({ params }) {
             height={0}
             style={{ width: '100%', height: 'auto' }}
           />
-          {renderEntryContent(post.content)}
+          <div className="blog-entry-content">
+            {renderEntryContent(post.content)}
+          </div>
         </article>
       </main>
     </>
