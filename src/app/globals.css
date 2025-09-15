@@ -133,3 +133,10 @@ img {
 .blog-entry-image {
   border-radius: 8px;
 }
+
+.blog-entry-content {
+  max-width: 582px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 150%;
+}
