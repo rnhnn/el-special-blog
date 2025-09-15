@@ -3,7 +3,6 @@ import path from 'path';
 
 const postsDirectory = path.join(process.cwd(), 'src/data/blog');
 
-// Recursively collect all JSON files from folders
 function getAllPostFiles(dir) {
   let files = [];
 
@@ -11,7 +10,7 @@ function getAllPostFiles(dir) {
     const fullPath = path.join(dir, dirent.name);
 
     if (dirent.isDirectory()) {
-      files = files.concat(getAllPostFiles(fullPath)); // recurse into subfolder
+      files = files.concat(getAllPostFiles(fullPath));
     } else if (dirent.isFile() && fullPath.endsWith('.json')) {
       files.push(fullPath);
     }
@@ -35,7 +34,6 @@ export function getAllPosts() {
 }
 
 export function getPostBySlug(slug) {
-  // Now we need to check all subfolders for the correct slug
   const filePaths = getAllPostFiles(postsDirectory);
 
   const matchingFile = filePaths.find((filePath) =>
