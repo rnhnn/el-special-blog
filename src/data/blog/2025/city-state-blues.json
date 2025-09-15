@@ -1,0 +1,13 @@
+{
+  "slug": "city-state-blues",
+  "title": "City-State Blues",
+  "date": "2025-02-16",
+  "image": "luka-modric.webp",
+  "alt": "Kirkwall's map",
+  "content": [
+    {
+      "type": "paragraph",
+      "html": "As a foreigner, I really wish this was called <em>Dragon Age: Exodus</em>."
+    }
+  ]
+}

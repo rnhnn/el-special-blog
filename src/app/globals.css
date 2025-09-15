@@ -1,0 +1,91 @@
+/* FONTS */
+
+@font-face {
+    font-family: "FreightText";
+    src: url("/fonts/FreightTextBookRegular.woff2") format("woff2");
+    font-style: normal;
+    font-display: block;
+}
+
+/* VARIABLES */
+
+:root {
+  --main-bg-color: #FFFFFF;
+  --main-text-color: #1A1A1A;
+  --link-underline-color: rgba(97, 51, 36, 0.5);
+}
+
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 34px 14px 100px 14px;
+  max-width: 860px;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: "FreightText";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  color: var(--main-bg-color);
+  background: var(--main-text-color);
+}
+
+/* HEADER */
+
+.header {
+  font-family: "Monaspace Neon", monospace;
+  margin-bottom: 66px;
+}
+
+.header-text,
+.header-text-link {
+  display: flex;
+  align-items: center;
+}
+
+.header-text-link {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 24px;
+}
+
+.header-subtitle {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+/* BLOG */
+
+.blog {
+  max-width: 695px;
+  margin-left: auto;
+  margin-right: auto;
+}
