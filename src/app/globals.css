@@ -7,6 +7,13 @@
     font-display: block;
 }
 
+@font-face {
+    font-family: "Gotham-Ultra";
+    src: url("/fonts/Gotham-Ultra-TD.woff") format("woff2");
+    font-style: normal;
+    font-display: block;
+}
+
 /* VARIABLES */
 
 :root {
@@ -117,6 +124,8 @@ img {
   margin-top: 32px;
   margin-bottom: 48px;
   text-align: center;
+  font-family: "Gotham-Ultra";
+  font-weight: normal;
   font-size: 36px;
   font-style: italic;
 }
