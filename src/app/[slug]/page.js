@@ -1,12 +1,10 @@
 import Image from 'next/image';
 import { getPostBySlug } from '@/helpers/loadPosts';
-import { getAllPosts } from '@/helpers/loadPosts';
 import { formatDate } from '@/helpers/formatDate';
 import { renderEntryContent } from '@/helpers/renderEntryContent';
 
 export default async function BlogPostPage({ params }) {
   const post = getPostBySlug(params.slug);
-  const posts = getAllPosts();
 
   return (
     <>

@@ -32,7 +32,7 @@ export default function Header() {
           <h1 className="header-title">El Special Blog.</h1>
         </Link>
 
-        <span className="header-subtitle" style={{ userSelect: 'text', cursor: 'default' }}>
+        <span className="header-subtitle">
           A footy manager blog
         </span>
       </div>
