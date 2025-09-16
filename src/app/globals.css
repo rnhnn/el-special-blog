@@ -134,6 +134,18 @@ img {
   font-style: italic;
 }
 
+.blog-entry-meta {
+  margin-top: -20px;
+  margin-bottom: 96px;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Monaspace Neon", monospace;
+}
+
+.blog-entry-author {
+  margin-left: 48px;
+}
+
 .blog-entry-image {
   border-radius: 8px;
 }

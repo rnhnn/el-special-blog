@@ -18,6 +18,10 @@ export default async function BlogPostPage({ params }) {
       <main className="blog-entry">
         <time className="blog-entry-date">{formatDate(post.date)}</time>
         <h1 className="blog-entry-title" dangerouslySetInnerHTML={{ __html: post.title }} />
+        <div className="blog-entry-meta">
+          <span className="blog-entry-season" dangerouslySetInnerHTML={{ __html: post.season }} />
+          <span className="blog-entry-author">{post.author}</span>
+        </div>
         <Image
           className="blog-entry-image"
           src={`/images/blog/${post.image}`}
