@@ -23,7 +23,7 @@
 :root {
   --main-bg-color: #FFFFFF;
   --main-text-color: #1A1A1A;
-  --link-underline-color: rgba(97, 51, 36, 0.5);
+  --pitch-line: #767676;
 }
 
 /* GENERAL */
@@ -37,7 +37,7 @@ body {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  padding: 34px 14px 100px 14px;
+  padding: 34px 14px 0 14px;
   max-width: 860px;
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
@@ -96,7 +96,89 @@ img {
 /* BLOG */
 
 .blog {
-  max-width: 695px;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--pitch-line);
+  padding-left: 143px;
+  padding-right: 143px;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+  .blog {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.blog::before,
+.blog::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 50px;
+  border: 1px solid var(--pitch-line);
+  border-radius: 50%;
+}
+
+.blog::before {
+  top: -28px;
+  left: -28px;
+}
+
+.blog::after {
+  top: -28px;
+  right: -28px;
+}
+
+.blog-pitch-area-diagram {
+  position: relative;
+  margin-bottom: 74px;
+}
+
+@media (max-width: 768px) {
+  .blog-pitch-area-diagram {
+    display: none;
+  }
+}
+
+.blog-pitch-area-box {
+  position: relative;
+  z-index: 2;
+  width: 308px;
+  height: 98px;
+  border-left: 1px solid var(--pitch-line);
+  border-right: 1px solid var(--pitch-line);
+  border-bottom: 1px solid var(--pitch-line);
+  background-color: var(--main-bg-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-pitch-area-goal {
+  width: 139px;
+  height: 30px;
+  border-left: 1px solid var(--pitch-line);
+  border-right: 1px solid var(--pitch-line);
+  border-bottom: 1px solid var(--pitch-line);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-pitch--area-arc {
+  position: absolute;
+  z-index: 1;
+  bottom: -23px;
+  left: 0;
+  right: 0;
+  width: 135px;
+  height: 104px;
+  border: 1px solid var(--pitch-line);
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -117,6 +199,13 @@ img {
   background-color: rgba(0, 0, 0, 0.40);
 }
 
+@media (max-width: 768px) {
+  .blog-entry + .blog-entry::before {
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+}
+
 .blog-entry-date {
   display: block;
   text-align: center;
@@ -132,6 +221,12 @@ img {
   font-weight: normal;
   font-size: 36px;
   font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .blog-entry-title {
+    font-size: 26px;
+  }
 }
 
 .blog-entry-meta {

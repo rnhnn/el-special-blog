@@ -15,6 +15,13 @@ export default async function BlogPostPage({ params }) {
 
   return (
     <main className="blog">
+      <div className="blog-pitch-area-diagram">
+        <div className="blog-pitch-area-box">
+          <div className="blog-pitch-area-goal"></div>
+        </div>
+        <div className="blog-pitch--area-arc"></div>
+      </div>
+      
       <main className="blog-entry">
         <time className="blog-entry-date">{formatDate(post.date)}</time>
         <h1 className="blog-entry-title" dangerouslySetInnerHTML={{ __html: post.title }} />

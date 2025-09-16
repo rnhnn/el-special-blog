@@ -10,6 +10,13 @@ export default async function HomePage() {
 
   return (
     <main className="blog">
+      <div className="blog-pitch-area-diagram">
+        <div className="blog-pitch-area-box">
+          <div className="blog-pitch-area-goal"></div>
+        </div>
+        <div className="blog-pitch--area-arc"></div>
+      </div>
+
       {posts.map((post) => ( // Loop through all posts to render each entry
         <article className="blog-entry" key={post.slug}>
           <time className="blog-entry-date">{formatDate(post.date)}</time>
