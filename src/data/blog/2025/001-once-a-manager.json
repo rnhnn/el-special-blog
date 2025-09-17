@@ -1,6 +1,6 @@
 {
   "slug": "once-a-manager",
-  "title": "Once a Manager",
+  "title": "Once a manager, always a manager",
   "author": "V. Fernández",
   "season": "<strong>S1</strong> 2010 Again",
   "date": "2025-09-14",
@@ -9,7 +9,39 @@
   "content": [
     {
       "type": "paragraph",
-      "html": "Some games never let go. Football Manager 2010 has stayed with me all these years — not as a file on a hard drive, but as a set of stories. Legendary squads I built, careers I lived through the screen, alternate realities I once believed in."
+      "html": "In a case of typical Sunday nostalgia, we found ourselves remembering the glorious days of FM 2010. This is how this project starts."
+    },
+    {
+      "type": "paragraph",
+      "html": "I all started with challenging ourselves to run the game on a modern-day Mac. After spending a very unreasonable amount of time and some crossover/wine wrangling, we managed to do it."
+    },
+    {
+      "type": "paragraph",
+      "html": "Long gone where our saves from the past, but here's that classic game-engine, accompanied with an unmatched moment in football where teams still played a no. 10, where not everything was high-pressing, and truly great strikers came in pairs."
+    },
+    {
+      "type": "paragraph",
+      "html": "There's something about that moment in football, an amount of raw talent that is so rare today. Or maybe is just what we grew up with. Every generation longs for the past."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Season 1: Going trough the motions again</strong>"
+    },
+    {
+      "type": "paragraph",
+      "html": "Without our old saves, we'll lean on memory to relive the great campaigns: my legendary Girondins Bordeaux run, or the dynasty I built after Ferguson retired at Manchester United."
+    },
+    {
+      "type": "paragraph",
+      "html": "At the same time, we'll carve new alternate histories — worlds that never were, like a reshaped Florentino comeback at Real Madrid, my friend good Rolo just couldn't resist."
+    },
+    {
+      "type": "paragraph",
+      "html": "Some stories will be faithful to the past, others will diverge wildly. The point isn't to recreate every detail, but to rediscover what made this game, and that era of football, so magnetic."
+    },
+    {
+      "type": "paragraph",
+      "html": "This where we'll share those tales. Once a manager, always a manager."
     }
   ]
 }
