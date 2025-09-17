@@ -25,11 +25,11 @@ export default function Header() {
         <Link href="/" className="header-text-link">
           <Image
             src="/images/logo.svg"
-            alt="El Special Blog Logo"
+            alt="The Special Blog Logo"
             width={42.4}
             height={43.03}
           />
-          <h1 className="header-title">El Special Blog.</h1>
+          <h1 className="header-title">The Special Blog.</h1>
         </Link>
 
         <span className="header-subtitle">
