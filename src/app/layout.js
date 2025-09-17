@@ -2,7 +2,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 
 export const metadata = {
-  title: 'El Special Blog',
+  title: 'The special blog',
   description: 'A footy manager tales blog',
 };
 
