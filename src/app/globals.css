@@ -16,8 +16,6 @@
     font-display: swap;
 }
 
-
-
 /* VARIABLES */
 
 :root {
@@ -100,7 +98,6 @@ img {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid var(--pitch-line);
   padding-left: 143px;
   padding-right: 143px;
   padding-bottom: 150px;
@@ -114,8 +111,12 @@ img {
   }
 }
 
-.blog::before,
-.blog::after {
+.blog.blog-post {
+  border: 1px solid var(--pitch-line);
+}
+
+.blog.blog-post::before,
+.blog.blog-post::after {
   content: '';
   display: block;
   position: absolute;
@@ -125,12 +126,12 @@ img {
   border-radius: 50%;
 }
 
-.blog::before {
+.blog.blog-post::before {
   top: -28px;
   left: -28px;
 }
 
-.blog::after {
+.blog.blog-post::after {
   top: -28px;
   right: -28px;
 }

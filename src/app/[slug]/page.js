@@ -14,7 +14,7 @@ export default async function BlogPostPage({ params }) {
   const post = getPostBySlug(params.slug); // Load the post by its internal slug
 
   return (
-    <main className="blog">
+    <main className="blog blog-post">
       <div className="blog-pitch-area-diagram">
         <div className="blog-pitch-area-box">
           <div className="blog-pitch-area-goal"></div>
