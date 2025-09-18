@@ -145,6 +145,10 @@ img {
     border-radius: 8px;
 }
 
+.blog-entry-button:hover {
+    background-color: rgb(247, 247, 247);
+}
+
 .blog.blog-post {
     border: 1px solid var(--pitch-line);
     padding-left: 134px;
