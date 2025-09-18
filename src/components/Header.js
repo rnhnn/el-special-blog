@@ -21,14 +21,17 @@ export default function Header() {
 
   return (
     <header className="header">
+      <Link className="header-logo" href="/">
+        <Image
+          src="/images/logo.svg"
+          alt="The Special Blog Logo"
+          width={42.4}
+          height={43.03}
+        />
+      </Link>
+
       <div className="header-text">
         <Link href="/" className="header-text-link">
-          <Image
-            src="/images/logo.svg"
-            alt="The Special Blog Logo"
-            width={42.4}
-            height={43.03}
-          />
           <h1 className="header-title">The Special Blog.</h1>
         </Link>
 

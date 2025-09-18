@@ -79,6 +79,8 @@ img {
 
 .header {
     margin-bottom: 66px;
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -87,36 +89,15 @@ img {
     }
 }
 
-.header-text,
-.header-text-link {
-    display: flex;
-    align-items: center;
-}
-
-.header-text-link {
-    display: flex;
-    align-items: center;
-}
-
-@media (max-width: 768px) {
-    .header-text {
-        display: block;
-    }
-    .header-text-link {
-        align-items: flex-start;
-    }
-}
-
 .header-title {
     display: inline-block;
+    margin: 0;
     font-size: 14px;
-    margin-left: 24px;
 }
 
-@media (max-width: 768px) {
-    .header-title {
-        margin-top: 5px;
-    }
+.header-logo {
+    flex-shrink: 0;
+    margin-right: 24px;
 }
 
 .header-subtitle {
@@ -124,11 +105,10 @@ img {
     margin-left: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
     .header-subtitle {
         display: block;
-        margin-left: 66px;
-        margin-top: -18px;
+        margin-left: 0;
     }
 }
 
