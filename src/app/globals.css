@@ -125,6 +125,8 @@ img {
 
 .blog.blog-post {
     border: 1px solid var(--pitch-line);
+    padding-left: 134px;
+    padding-right: 134px;
 }
 
 .blog.blog-post::before,
