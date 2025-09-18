@@ -1,6 +1,6 @@
 {
   "slug": "florentino-is-coming-home",
-  "title": "Before La Décima",
+  "title": "We're on our way home",
   "author": "R. Hernández",
   "season": "<strong>S1</strong> 2010 Again",
   "date": "2025-09-16",
@@ -9,7 +9,23 @@
   "content": [
     {
       "type": "paragraph",
-      "html": "Some games never let go. Football Manager 2010 has stayed with me all these years — not as a file on a hard drive, but as a set of stories. Legendary squads I built, careers I lived through the screen, alternate realities I once believed in."
+      "html": "Every now and then, since we were kids, Vic and I would come up with web projects to impulsively build in a day, just for the fun of it. Now that I think about it, it feels odd and miraculous that a blog focused on football hasn’t happened until now. Miraculous as getting <em>Football Manager 2010</em> running on modern hardware."
+    },
+    {
+      "type": "paragraph",
+      "html": "Is it ever a good idea to install any <em>Football Manager</em> game at all? Well, I guess we’ll see. I mostly blame Vic’s convincing skills, but also... Luka Modrić. That farewell day at the Bernabéu a few months ago surely wrecked me. Maybe now I just want to look back at a time when players were older than us."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>The years before <em>La Décima</em></strong>"
+    },
+    {
+      "type": "paragraph",
+      "html": "I’ll leave the thrills of starting small to Vic’s Girondins. My real interest now is in reuniting with that 09/10 Real Madrid squad and seeing if things can play out differently in Florentino’s big return season. At the very least I should be able to avoid the <em>Alcorconazo</em>... and maybe break the Round of 16 curse a bit earlier?"
+    },
+    {
+      "type": "paragraph",
+      "html": "It’s 2010 again: <em>FM’s</em> UI is beautiful, and we all know where the Champions League final is going to be played."
     }
   ]
 }
