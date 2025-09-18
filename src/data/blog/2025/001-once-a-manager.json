@@ -1,6 +1,6 @@
 {
   "slug": "once-a-manager",
-  "title": "Once a manager, always a manager",
+  "title": "Once a <em>manager</em>, always a <em>manager</em>",
   "author": "V. Fernández",
   "season": "<strong>S1</strong> 2010 Again",
   "date": "2025-09-14",
@@ -9,7 +9,7 @@
   "content": [
     {
       "type": "paragraph",
-      "html": "In a case of typical Sunday nostalgia, we found ourselves remembering the glorious days of FM 2010. This is how this project starts."
+      "html": "In a case of typical <em>Sunday nostalgia</em>, we found ourselves remembering the glorious days of FM 2010. This is how this project starts."
     },
     {
       "type": "paragraph",
